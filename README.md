@@ -1,23 +1,27 @@
-# countdown-timer
+# Countdown Timer
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Multi-timer countdown app with presets and progress tracking
+Multi-timer app with custom labels, built-in presets, and browser notification alarm when time is up.
 
 ## Features
-- ⏱️ Run multiple timers simultaneously
-- 📋 Quick presets: 5m, 10m, 25m, 1h
-- 📊 Per-timer progress bar
-- 🏷️ Custom labels for each timer
-- 🔔 Browser notification on completion
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Multiple simultaneous countdown timers
+- Custom label per timer
+- Presets: Pomodoro (25 min), Short Break (5 min), Long Break (15 min)
+- Browser notification + sound alarm on completion
+- Pause, resume, and reset per timer
+- Progress ring animation
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
